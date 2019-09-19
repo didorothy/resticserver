@@ -16,3 +16,5 @@ waitress - (https://github.com/Pylons/waitress) required to be either pip instal
 1. Create a `config.py` file and specify one variable: `ROOT_PATH = '/path/to/repositories'`
 1. Install `waitress` with pip (`pip install waitress`) or copy waitress package into the same directory.
 1. Run `python resticserver.py`
+
+NOTE: `resticserver.py` contains a WSGI Application so technically `waitress` is not required and this could be run as a WSGI app in a different WSGI server.
