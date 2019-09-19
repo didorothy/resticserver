@@ -1,5 +1,5 @@
 # resticserver
-A simple restic server implemented in Python 3.
+A simple restic REST backend implemented in Python 3.
 
 ## Overview
 
